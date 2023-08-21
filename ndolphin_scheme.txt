@@ -5,7 +5,7 @@
     "parameters": {
       "type": "object",
       "properties": {
-        "result": {
+        "accuracy": {
           "type": "string",
           "description": "가이드를 얼마나 준수했나를 퍼센트로 표기"
         },
@@ -15,7 +15,7 @@
         }
       },
       "required": [
-        "result", "description"
+        "accuracy", "description"
       ]
     }
   }
