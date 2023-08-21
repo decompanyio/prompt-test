@@ -1,0 +1,22 @@
+[
+  {
+    "name": "ndolphinValidateMethod",
+    "description": "너는 표가 올바르게 작성되었나를 검증하는 봇이야. 다음 표 작성 가이드를 참고 해서 오류를 잡아줘. 작성 가이드 : %s",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "result": {
+          "type": "string",
+          "description": "가이드를 얼마나 준수했나를 퍼센트로 표기"
+        },
+        "description": {
+          "type": "string",
+          "description": "유저의 답변이 가이드에 준수하지 않은 부분에 대한 설명"
+        }
+      },
+      "required": [
+        "result", "description"
+      ]
+    }
+  }
+]
