@@ -11,7 +11,7 @@
         },
         "location": {
           "type": "string",
-          "description": "수정이 필요한 위치. 작성 포맷 : [행번호(Number), 열번호(Number)]"
+          "description": "수정이 필요한 위치. 작성 포맷 : [행번호(int), 열번호(int)]"
         },
         "description": {
           "type": "string",
