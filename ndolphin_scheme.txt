@@ -11,7 +11,7 @@
         },
         "location": {
           "type": "string",
-          "description": "수정이 필요한 위치. 작성 포맷 : [행번호(int), 열번호(int)]"
+          "description": "Where corrections are needed. Writing format : [row number(int), col number(int)]"
         },
         "description": {
           "type": "string",
