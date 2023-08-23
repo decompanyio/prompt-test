@@ -11,7 +11,7 @@
         },
         "location": {
           "type": "string",
-          "description": "수정이 필요한 위치(포맷 : [컬럼명, 열번호])"
+          "description": "수정이 필요한 위치(포맷 : [행번호, 열번호])"
         },
         "description": {
           "type": "string",
