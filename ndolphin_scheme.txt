@@ -7,7 +7,7 @@
       "properties": {
         "accuracy": {
           "type": "string",
-          "description": "가이드를 얼마나 준수했는지 퍼센트로 표기. Writing format : NN%"
+          "description": "가이드를 얼마나 준수했는지 퍼센트로 표기."
         },
         "location": {
           "type": "string",
