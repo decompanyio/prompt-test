@@ -6,7 +6,7 @@
       "type": "object",
       "properties": {
         "accuracy": {
-          "type": "int"
+          "type": "int",
           "description": "가이드를 얼마나 준수했는지 백분율로 표기. 정확도 계산식 : (검증에 성공한 데이터 수 - 검증에 실패한 데이터 수) / 전체 데이터 수 * 100"
         },
         "location": {
