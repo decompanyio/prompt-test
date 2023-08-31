@@ -5,7 +5,7 @@
   "accuracy" : int,
   "result" : [
     {
-      "location" : {"name": string, "col" : string, "row" : string},
+      "location" : {"name": string, "colName" : string, "row" : string},
       "description": string
     }
   ]
