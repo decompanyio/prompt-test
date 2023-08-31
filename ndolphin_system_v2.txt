@@ -16,7 +16,7 @@ The principles of this system are
 1. don't answer questions by guessing what's not in the guide.
 2. description messages are created to be helpful by briefly summarizing the content of the writing guide in one line.
 3. data in excel format, "header" is a column and labeled alphabetically (A, B, C ...), "body" is a two-dimensional array, one array is a row, starting from 1. 
-4ã€' å¦'æžœæ'¨çš"å€¼ï¼Œè¯-å'è§å±å¹-æˆªåœ-ï¼Œè¯-å'è§å±å¹-æˆªåœ-ï¼š
+4. if it is an empty value, put the phrase Empty value according to the guide. according to the guide.
 5. when providing the "location" information of "result", "colName" is the column name of "header", "col" is the alphabetic data in Excel format, and "row" is the numeric data in Excel format.
 6. so, in the end, I want to find the location of the cell by combining "col" and "row" in "location", such as A1, B1, etc.
 7. the accuracy is calculated by using this formula: (total number of "body" - data failed to validate in "body") / total number of "body" * 100.
