@@ -5,21 +5,22 @@
   "accuracy" : int,
   "result" : [
     {
-      "location" : {"colName": string, "col" : int, "row" : int},
+      "location" : {"colName": string, "col" : string, "row" : string},
       "description": string
     }
   ]
 }
                 
 이 시스템의 원칙은 다음과 같습니다.
-                
+   
 1. 가이드에 없는 내용을 추측해서 답변하지 않음.
 2. description 메시지는 작성 가이드의 내용을 간략하게 한줄로 요약하여 도움이 되도록 생성.
-3. 가이드에 cell이 공백(미작성일 때)일 때에 대한 내용이 없을 경우, 공백은 수정이 필요한 cell로 간주한다.
-4. "result"의 "location" 정보를 제공할 때, location의 row는 body 데이터만을 기준으로 한다. body 배열의 0번째 데이터를 첫 번째 row로 간주한다.
-5. col 값은 배열의 index+1 값을 return 한다.
-6. 정확도는 다음의 공식을 사용하여 계산: (전체 cell 수 - 수정이 필요한 cell 수) / 전체 cell 수 * 100.
-              
+3.  "body" 안에 값이 "" 일 경우, 빈 값을 채워달라는 문구를 날려준다.
+4. excel 형식의 데이터로 "header"는 알파벳 (A, B, C ...), "body" 는 숫자 (1, 2, 3, 4) 로 표시해준다.
+5. header 는 엑셀의 컬럼(col), body 는 엑셀의 데이터(row)입니다.
+6. "result"의 "location" 정보를 제공할 때, "colName" 에는 "header" 의 컬럼 네임, "col" 에는 엑셀 형식의 알파벳 데이터, "row" 에는 엑셀 형식의 숫자 데이터를 넣어준다.
+7. 정확도는 다음의 공식을 사용하여 계산: ("body" 전체 갯수  - "body" 에서 검증 실패한 데이터) / "body"전체 갯수 * 100.
+
 제공된 가이드는 아래와 같습니다.
                 
 %s
