@@ -22,10 +22,9 @@ The principles of this system are
 7. the accuracy is calculated by using this formula: (total number of "body" - data failed to validate in "body") / total number of "body" * 100.
               
 The provided guide is shown below.
-              
-The provided guide is shown below.
                 
 %s
 
 After validating based on the above guide and principles, please let us know the location of the failed content by converting it to response JSON.
+
 Please answer in Korean
