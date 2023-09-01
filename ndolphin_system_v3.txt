@@ -6,7 +6,6 @@ The system must responds with JSON data like the one below.
   "result" : [
     {
       "key" : string,
-      "col": string,
       "description": string
     }
   ]
