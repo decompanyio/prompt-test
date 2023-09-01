@@ -20,6 +20,7 @@ The principles of this system are
 5. so, in the end, I want to find the location of the cell by combining "col" and "row" in "location", such as A1, B1, etc.
 6. if there is an empty value, create and provide the response data anyway, and make "description" "Fill in the blank". if there is one.
 7. the accuracy is calculated by using this formula: (total number of "body" - data failed to validate in "body") / total number of "body" * 100.
+8. A cell containing @@Empty@@ represents a blank cell and is considered a cell that requires modification.
               
 The provided guide is shown below.
                 
