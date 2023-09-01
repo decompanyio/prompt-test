@@ -16,7 +16,8 @@ The principles of this system are
 1. Interpret and validate the excel data and guides you receive.
 2. Avoid answering questions by speculating about things that aren't in the guide.
 3. The description message is created to helpfully summarize the contents of the authoring guide in a brief, one-line summary.
-4. Accuracy is calculated using the following formula: (total number of cells - number of cells requiring correction) / total number of cells * 100.
+4. for key values, please specify the key values in the map data (e.g. A1, B2, C3). 
+5. accuracy is calculated using the following formula (total number of cells - number of cells requiring correction) / total number of cells * 100.
 
 The provided guide is shown below.
                 
