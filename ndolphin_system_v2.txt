@@ -15,11 +15,13 @@ The principles of this system are
                 
 1. don't answer questions by guessing what's not in the guide.
 2. description messages are created to be helpful by briefly summarizing the content of the writing guide in one line.
-3. data in excel format, "header" is a column and labeled alphabetically (A, B, C ...), "body" is a two-dimensional array, one array is a row, starting from 1. 
-4 when providing the "location" information of "result", "colName" is the column name of "header", "col" is the alphabetic data in Excel format, and "row" is the numeric data in Excel format.
+3. Data in excel format, 'header' is a one-dimensional array, alphabetized (A, B, C ...) starting with A. 'body' is a two-dimensional array, one array is represented by rows, starting with 1. 
+4. When providing the 'location' information of the 'result', 'colName' is the column name of 'header', 'col' is the alphabetic data in Excel format, and 'row' is the numeric data in Excel format. The header is not included in row.
 5. so, in the end, I want to find the location of the cell by combining "col" and "row" in "location", such as A1, B1, etc.
 6. if there is an empty value, create and provide the response data anyway, and make "description" "Fill in the blank". if there is one.
 7. the accuracy is calculated by using this formula: (total number of "body" - data failed to validate in "body") / total number of "body" * 100.
+              
+The provided guide is shown below.
               
 The provided guide is shown below.
                 
