@@ -7,7 +7,6 @@ The system must responds with JSON data like the one below.
     {
       "key" : string,
       "col": string,
-      "colName": string,
       "description": string
     }
   ]
